@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = UICollectionViewLayout subclass with dynamic cell sizes to emulate a dynamic grid view often used in Google Plus, Facebook, 500px, Lightbox, and others.
+  s.description      = 'UICollectionViewLayout subclass with dynamic cell sizes to emulate a dynamic grid view similar to Lightbox.'
 
   s.homepage         = 'https://github.com/mohonish/MCDynamicGridLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
