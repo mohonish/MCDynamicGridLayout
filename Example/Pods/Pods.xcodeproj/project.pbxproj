@@ -12,6 +12,7 @@
 		547EBD3B60BDC7AA49DD3B8C9C1BFA25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		70A0E51B8DF3B38FBB2D8139F870E935 /* Pods-MCDynamicGridLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0812FC480150AC755C46723661371C1D /* Pods-MCDynamicGridLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78740CFFD35B0ABCE506B66D0959858A /* Pods-MCDynamicGridLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E04C45C3FCD75BED3848EE83B94227DD /* Pods-MCDynamicGridLayout_Example-dummy.m */; };
+		AA7AF5EA1D25448700B2F68E /* MCDynamicGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7AF5E91D25448700B2F68E /* MCDynamicGridLayout.swift */; };
 		ABA98BCB1F9CB8C96B40BB92DACE25FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		8DD9E9F14CD8924076B7C1E20A9FD310 /* MCDynamicGridLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCDynamicGridLayout.xcconfig; sourceTree = "<group>"; };
 		90C560CEE636C382ACAB3381998CF2D9 /* Pods-MCDynamicGridLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCDynamicGridLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		985691D8E4B6579913FA4971D0A52A9D /* MCDynamicGridLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCDynamicGridLayout-prefix.pch"; sourceTree = "<group>"; };
+		AA7AF5E91D25448700B2F68E /* MCDynamicGridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCDynamicGridLayout.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C74DAA19560148DEAC0943303043827F /* MCDynamicGridLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCDynamicGridLayout-dummy.m"; sourceTree = "<group>"; };
 		D4C2E30C0F77CD92AD8A2942F51F7268 /* Pods_MCDynamicGridLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDynamicGridLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 		6FADD1C30FC16F1859FEBAD8CB027704 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AA7AF5E91D25448700B2F68E /* MCDynamicGridLayout.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -240,7 +243,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4193A0544C5EDD2760D54588230F5891 /* MCDynamicGridLayout-dummy.m in Sources */,
+				AA7AF5EA1D25448700B2F68E /* MCDynamicGridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DD9E9F14CD8924076B7C1E20A9FD310 /* MCDynamicGridLayout.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -455,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DD9E9F14CD8924076B7C1E20A9FD310 /* MCDynamicGridLayout.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
