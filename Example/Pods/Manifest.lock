@@ -1,0 +1,14 @@
+PODS:
+  - MCDynamicGridLayout (0.1.0)
+
+DEPENDENCIES:
+  - MCDynamicGridLayout (from `../`)
+
+EXTERNAL SOURCES:
+  MCDynamicGridLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MCDynamicGridLayout: acf7e1636c6c4fc2a20eb568af2127ac85ec09e8
+
+COCOAPODS: 0.39.0

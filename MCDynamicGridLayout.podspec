@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MCDynamicGridLayout'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MCDynamicGridLayout.'
+  s.summary          = 'UICollectionViewLayout subclass with dynamic cell sizes.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = UICollectionViewLayout subclass with dynamic cell sizes to emulate a dynamic grid view often used in Google Plus, Facebook, 500px, Lightbox, and others.
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MCDynamicGridLayout'
+  s.homepage         = 'https://github.com/mohonish/MCDynamicGridLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mohonish Chakraborty' => 'mohonish.c@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MCDynamicGridLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mohonish/MCDynamicGridLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

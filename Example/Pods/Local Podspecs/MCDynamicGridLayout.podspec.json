@@ -1,0 +1,22 @@
+{
+  "name": "MCDynamicGridLayout",
+  "version": "0.1.0",
+  "summary": "A short description of MCDynamicGridLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MCDynamicGridLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohonish Chakraborty": "mohonish.c@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MCDynamicGridLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MCDynamicGridLayout/Classes/**/*"
+}

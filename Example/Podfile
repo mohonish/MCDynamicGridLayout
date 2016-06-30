@@ -1,11 +1,7 @@
 use_frameworks!
 
 target 'MCDynamicGridLayout_Example' do
+
   pod 'MCDynamicGridLayout', :path => '../'
 
-  target 'MCDynamicGridLayout_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
